@@ -1,0 +1,1 @@
+EchoGuard is an Android security app that monitors app permissions in real time, detects suspicious access to sensitive data, and allows users to manage permissions instantly through a centralized dashboard. It helps users protect their privacy by identifying risky app behavior and providing actionable controls.
