@@ -1,128 +1,118 @@
-🔐 EchoGuard – Android App Permission Monitoring System
+# 🔐 EchoGuard  
+### Android App Permission Monitoring & Privacy Protection System
 
-EchoGuard is an Android privacy and security application that helps users monitor, analyze, and control app permissions in real time. It protects users from hidden privacy risks by identifying suspicious permission usage and giving them full control over their data.
+> **EchoGuard** helps Android users **monitor, analyze, and control app permissions in real time**, protecting their privacy from hidden and suspicious app behavior.
 
-📌 Problem Statement
+---
 
-Many Android apps request sensitive permissions such as:
+## 🚀 Why EchoGuard?
 
-Microphone
+Modern Android apps often access sensitive permissions like **microphone, camera, location, and storage** — sometimes without clear user awareness.
 
-Camera
+EchoGuard exists to **bring transparency, awareness, and control** back to users.
 
-Location
+---
 
-Storage
+## 🧩 What Problem Does It Solve?
 
-Contacts
+❌ Apps accessing sensitive permissions in the background  
+❌ No clear explanation of permission usage  
+❌ Difficult system-level permission management  
+❌ Lack of real-time alerts  
 
-Often, these permissions are misused or accessed in the background without the user’s awareness. Existing permission managers are mostly static and do not explain how or when permissions are used.
+---
 
-💡 Solution – EchoGuard
+## ✅ Our Solution
 
-EchoGuard provides a smart, centralized permission monitoring system that:
+✔️ Real-time permission monitoring  
+✔️ Suspicious behavior detection  
+✔️ Instant alerts  
+✔️ One-tap permission control  
+✔️ Simple and user-friendly dashboard  
 
-Tracks permission usage across all installed apps
+---
 
-Detects unusual or risky behavior
+## ✨ Key Features
 
-Notifies users in real time
+🔍 **Real-Time Permission Monitoring**  
+Tracks which app uses which permission and when.
 
-Allows instant permission control from one dashboard
+⚠️ **Suspicious Activity Detection**  
+Detects abnormal behaviors such as:
+- Background microphone access  
+- Camera usage without interaction  
+- Location access by unrelated apps  
 
-✨ Key Features
+🔔 **Instant Alerts**  
+Notifies users immediately when sensitive permissions are accessed.
 
-🔍 Real-Time Permission Monitoring
-Continuously monitors which app is accessing which permission and when.
+🛑 **One-Tap Permission Control**  
+Revoke or restrict permissions directly from the app.
 
-⚠️ Suspicious Activity Detection
-Flags abnormal behaviors such as:
+📊 **Privacy Risk Score**  
+Each app receives a risk score based on permission behavior.
 
-Background access to microphone or camera
+🔐 **Privacy-First Design**  
+No unnecessary data collection. User privacy is our priority.
 
-Apps requesting permissions unrelated to their functionality
+---
 
-🔔 Instant Alerts
-Notifies users whenever a sensitive permission is accessed unexpectedly.
+## 🧠 How It Works
 
-🛑 One-Tap Permission Control
-Easily revoke, restrict, or allow permissions directly from the app.
+1️⃣ Scans installed apps and permissions  
+2️⃣ Monitors permission usage continuously  
+3️⃣ Analyzes behavior patterns  
+4️⃣ Flags suspicious access  
+5️⃣ Alerts users and enables instant action  
 
-📊 Privacy Risk Score
-Each app is assigned a risk score based on permission usage patterns.
+---
 
-🔐 Privacy-First Design
-User data is handled securely and transparently.
+## 🛠️ Tech Stack
 
-🧠 How It Works
+| Component | Technology |
+|--------|------------|
+| Platform | Android |
+| Language | Java / Kotlin |
+| UI | XML (Material Design) |
+| APIs | Android Permissions, Accessibility |
+| Architecture | Modular / MVVM |
 
-EchoGuard scans installed apps and their permissions
+---
 
-It monitors permission usage in real time
+## 🎯 Target Users
 
-Behavioral analysis identifies risky patterns
+👤 Everyday Android users  
+🎓 Students & professionals  
+👨‍👩‍👧 Parents  
+🏢 Organizations & institutions  
 
-Alerts are triggered for suspicious activity
+---
 
-Users take action instantly from the dashboard
+## 📱 Use Cases
 
-🛠️ Tech Stack
+📌 Identify apps misusing microphone or camera  
+📌 Block unnecessary permissions  
+📌 Improve digital privacy awareness  
+📌 Prevent silent data access  
 
-Platform: Android
+---
 
-Language: Java / Kotlin
+## 🔮 Future Enhancements
+🚀 AI-based permission risk prediction  
+🚀 Auto-block rules for risky apps  
+🚀 Detailed analytics dashboard  
+🚀 Enterprise-level security features  
+🚀 Cloud backup & sync  
 
-UI: XML (Material Design)
+## 🧪 Project Status
+🟡 **MVP / In Development**
+## 🤝 Contributing
+Contributions are welcome!  
+Fork this repository and submit a pull request 🚀
+## 📄 License
+📜 MIT License
+## 👤 Author
+**Shradul Sharma**  
+---
 
-APIs: Android Permission & Accessibility APIs
-
-Architecture: Modular / MVVM (optional)
-
-🎯 Target Users
-
-Android users concerned about privacy
-
-Students and professionals handling sensitive data
-
-Parents monitoring app behavior
-
-Organizations enforcing mobile security awareness
-
-🚀 Future Enhancements
-
-AI-based permission behavior prediction
-
-Auto-block rules for risky permissions
-
-Detailed permission usage analytics
-
-Enterprise privacy dashboards
-
-Cloud backup & cross-device sync
-
-📱 Use Cases
-
-Detect apps secretly using microphone or camera
-
-Identify unnecessary permissions
-
-Reduce privacy leaks
-
-Improve awareness of mobile security
-
-🧪 Project Status
-
-🟡 In Development / MVP Stage
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork the repository and submit a pull request.
-
-📄 License
-
-This project is licensed under the MIT License.
-
-👤 Author
-
-Shradul Sharma
+### 🌟 If you like this project, don’t forget to ⭐ star the repository!
